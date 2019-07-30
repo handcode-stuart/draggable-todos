@@ -20,6 +20,7 @@ class Task extends Component {
                 draggableId={this.props.task.id}
                 index={this.props.index}
                 isDragDisabled={isDragDisabled}
+                type='task'
             >
                 {(provided, snapshot) => (
                     <Container
