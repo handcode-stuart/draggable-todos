@@ -31,6 +31,7 @@ class InnerList extends Component {
 
 class App extends Component {
     state = initialData;
+    
 
     onDragStart = () => {
         document.body.style.color = "orange";
